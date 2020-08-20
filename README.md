@@ -115,6 +115,8 @@ Here's what's different:
     - When a commit is made to a document
     - When a new participant shows up or an old one leaves
     - When project metadata changes
+    - When speech console changes
+      - SC is written in C#, but changes are processed by node app
   - Processes can also just watch the entire db
     - ... but I'm concerned it might be a bit slow
 
@@ -123,4 +125,5 @@ Here's what's different:
   - All global configuration goes here
     - base directory
     - unique ID counters
-  
+    - active participant (with permission to change documents)
+   
