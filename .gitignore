@@ -1,0 +1,10 @@
+bin/mongo.exe
+bin/mongos.exe
+db/
+node_modules/
+.vs/
+
+obj/
+packages/
+
+*.pdb

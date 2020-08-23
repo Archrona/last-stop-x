@@ -1,0 +1,16 @@
+{
+    "mongo": {
+        "bin": "./bin/mongod.exe",
+        "port": 17800,
+        "bind": "localhost",
+        "config": "mongod.yaml"
+    },
+    "gui": {
+        "exec": "npm start --silent",
+        "cwd": "./gui"
+    },
+    "speech_console": {
+        "bin": "SpeechConsole.exe",
+        "cwd": "./SpeechConsole"
+    }
+}

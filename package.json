@@ -1,0 +1,24 @@
+{
+  "name": "last-stop-x",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archrona/last-stop-x.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Archrona/last-stop-x/issues"
+  },
+  "homepage": "https://github.com/Archrona/last-stop-x#readme",
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "tree-kill": "^1.2.2"
+  }
+}
